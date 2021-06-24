@@ -23,10 +23,9 @@ import bs4
 import jikanpy
 import requests
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from pyrogram import filters
-
 from DaisyX.decorator import register
 from DaisyX.services.pyrogram import pbot
+from pyrogram import filters
 
 from .utils.anime import (
     airing_query,

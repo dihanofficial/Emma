@@ -17,7 +17,6 @@ import os
 
 import yaml
 from babel.core import Locale
-
 from DaisyX.services.mongo import db
 from DaisyX.services.redis import redis
 from DaisyX.utils.logger import log

@@ -13,7 +13,6 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 from aiogram.utils.exceptions import Unauthorized
-
 from DaisyX.modules.utils.user_details import is_user_admin
 from DaisyX.services.mongo import db
 from DaisyX.services.redis import redis

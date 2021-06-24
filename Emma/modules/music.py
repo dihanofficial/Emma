@@ -20,11 +20,10 @@ import io
 import os
 
 import lyricsgenius
-from pyrogram import filters
-from tswift import Song
-
 from Emma.config import get_str_key
 from Emma.services.pyrogram import pbot
+from pyrogram import filters
+from tswift import Song
 
 GENIUS = get_str_key("GENIUS_API_TOKEN", None)
 

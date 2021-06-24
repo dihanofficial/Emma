@@ -1,5 +1,5 @@
 # Copyright (C) 2021 Dihan Randila
-# Copyright (C) 2021 Emma 
+# Copyright (C) 2021 Emma
 
 # This file is part of Emma (Telegram Bot)
 
@@ -22,9 +22,8 @@ import re
 
 import requests
 from bs4 import BeautifulSoup
-from telethon import events
-
 from Emma.services.telethon import tbot
+from telethon import events
 
 
 @tbot.on(events.NewMessage(pattern="^/book (.*)"))

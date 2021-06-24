@@ -20,11 +20,11 @@ import html
 import sys
 
 from aiogram.types import Update
+from Emma.services.redis import redis
+from Emma.utils.logger import log
 from redis.exceptions import RedisError
 
 from Emma import OWNER_ID, bot, dp
-from Emma.services.redis import redis
-from Emma.utils.logger import log
 
 SENT = []
 

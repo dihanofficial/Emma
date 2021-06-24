@@ -3,13 +3,13 @@ import sys
 from os import environ, execle, path, remove
 
 import heroku3
+from Emma.config import get_str_key
+from Emma.services.events import register
+from Emma.services.telethon import tbot as update
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 
 from Emma import OWNER_ID
-from Emma.config import get_str_key
-from Emma.services.events import register
-from Emma.services.telethon import tbot as update
 
 HEROKU_APP_NAME = get_str_key("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = get_str_key("HEROKU_API_KEY", None)

@@ -1,4 +1,3 @@
-
 # Copyright (C) 2020 Dihan Official
 
 # This file is part of Emma (Telegram Bot)
@@ -22,8 +21,8 @@ from contextlib import suppress
 from aiogram.types.inline_keyboard import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils.callback_data import CallbackData
 from aiogram.utils.exceptions import MessageNotModified
-
 from Emma.decorator import register
+
 from Emma.modules.utils.disable import disableable_dec
 
 from . import MOD_HELP
@@ -99,14 +98,10 @@ async def get_start_func(message, strings, edit=False):
         InlineKeyboardButton(
             strings["btn_channel"], url="https://t.me/EmmaBot_updates"
         ),
-        InlineKeyboardButton(
-            strings["btn_group"], url="https://t.me/EmmaBot_support"
-        ),
+        InlineKeyboardButton(strings["btn_group"], url="https://t.me/EmmaBot_support"),
     )
     buttons.add(
-        InlineKeyboardButton(
-            "🥰𝙔𝙤𝙪𝙩𝙪𝙗𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://youtube.com/channel/"
-        ),
+        InlineKeyboardButton("🥰𝙔𝙤𝙪𝙩𝙪𝙗𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://youtube.com/channel/"),
         InlineKeyboardButton(
             "😋𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥",
             url="https://t.me/dihanrandila",
@@ -117,13 +112,12 @@ async def get_start_func(message, strings, edit=False):
             "🤖𝘽𝙊𝙏𝙎 𝙐𝙋𝘿𝘼𝙏𝙀𝙎",
             url=f"https://telegram.me/DihanOfficial",
         ),
-        
     )
     buttons.add(
         InlineKeyboardButton(
             "➕Add Emma to your group➕",
             url=f"https://telegram.me/TheEmmaBot?startgroup=true",
-        ),   
+        ),
     )
     buttons.add(
         InlineKeyboardButton(

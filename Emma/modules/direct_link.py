@@ -21,7 +21,6 @@ from random import choice
 
 import requests
 from bs4 import BeautifulSoup
-
 from Emma.decorator import register
 
 from .utils.disable import disableable_dec

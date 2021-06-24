@@ -1,5 +1,4 @@
 import pymongo
-
 from Emma.config import get_str_key
 
 MONGO2 = get_str_key("FILTERS_MONGO", None)

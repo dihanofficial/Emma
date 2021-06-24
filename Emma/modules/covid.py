@@ -16,10 +16,10 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+from Emma.services.pyrogram import pbot as app
 from pyrogram import filters
 
 from Emma.function.pluginhelpers import fetch, json_prettify
-from Emma.services.pyrogram import pbot as app
 
 
 @app.on_message(filters.command("covid") & ~filters.edited)

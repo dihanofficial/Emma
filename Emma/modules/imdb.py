@@ -21,11 +21,10 @@ import re
 
 import bs4
 import requests
-from telethon import types
-from telethon.tl import functions
-
 from Emma.services.events import register
 from Emma.services.telethon import tbot
+from telethon import types
+from telethon.tl import functions
 
 langi = "en"
 

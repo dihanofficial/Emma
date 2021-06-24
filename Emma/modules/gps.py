@@ -16,12 +16,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
+from Emma.services.events import register
+from Emma.services.telethon import tbot as client
 from geopy.geocoders import Nominatim
 from telethon import *
 from telethon.tl import *
-
-from Emma.services.events import register
-from Emma.services.telethon import tbot as client
 
 
 async def is_register_admin(chat, user):

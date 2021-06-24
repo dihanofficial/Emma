@@ -2,10 +2,10 @@
 # Ported This Plugin here By Dihan from wbb.
 import os
 
+from Emma.services.pyrogram import pbot as app
 from pyrogram import filters
 
 from Emma import OWNER_ID
-from Emma.services.pyrogram import pbot as app
 
 
 @app.on_message(filters.command("install") & filters.user(OWNER_ID))

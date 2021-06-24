@@ -21,7 +21,6 @@ from contextlib import suppress
 from aiogram.types.inline_keyboard import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils.callback_data import CallbackData
 from aiogram.utils.exceptions import MessageNotModified
-
 from Emma.decorator import register
 from Emma.services.mongo import db
 
@@ -76,9 +75,7 @@ async def select_lang_keyboard(message, strings, edit=False):
         )
 
     markup.add(
-        InlineKeyboardButton(
-            strings["crowdin_btn"], url="https://t.me/EmmaBot_support"
-        )
+        InlineKeyboardButton(strings["crowdin_btn"], url="https://t.me/EmmaBot_support")
     )
     if edit:
         markup.add(InlineKeyboardButton(strings["back"], callback_data="go_to_start"))
