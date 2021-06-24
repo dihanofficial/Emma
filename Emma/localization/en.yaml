@@ -187,12 +187,12 @@ STRINGS:
 
   pm_menu:
     start_hi_group: 'Hey there! My name is Emma 💖.Who are you my dear 😘'
-    start_hi: "Hey there! My name is <b>Emma 💖.</b>\nI can help manage your groups with useful features, feel free to add me to your groups! for music bot options clic /m_help . Powered by @dihanofficial "
+    start_hi: "Hey there! My name is <b>Emma 💖.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"
     btn_source: "𝙎𝙤𝙪𝙧𝙘𝙚 "
     btn_help: "❔ Help"
     btn_lang: "🇺🇸 Language"
-    btn_channel: "🙋‍♀️ Emma News"
-    btn_group: "👥 Emma Support"
+    btn_channel: "🙋‍♀️ 𝙀𝙢𝙢𝙖 𝙐𝙥𝙙𝙖𝙩𝙚𝙨"
+    btn_group: "👥 𝙀𝙢𝙢𝙖 𝙎𝙪𝙥𝙥𝙤𝙧𝙩"
     btn_group_help: "Click me for help!"
     back: "🏃‍♂️ Back"
 
