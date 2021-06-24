@@ -1,0 +1,3 @@
+files:
+  - source: Emma/localization/en.yaml
+    translation: /**/Emma/localization/%locale_with_underscore%.yaml
