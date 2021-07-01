@@ -17,6 +17,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from countryinfo import CountryInfo
+
 from Emma.services.events import register
 from Emma.services.telethon import tbot as borg
 

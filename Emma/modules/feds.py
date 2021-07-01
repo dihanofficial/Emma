@@ -42,12 +42,12 @@ from aiogram.utils.exceptions import (
     Unauthorized,
 )
 from babel.dates import format_timedelta
-from Emma.services.mongo import db
-from Emma.services.redis import redis
-from Emma.services.telethon import tbot
 from pymongo import DeleteMany, InsertOne
 
 from Emma import BOT_ID, OPERATORS, OWNER_ID, bot, decorator
+from Emma.services.mongo import db
+from Emma.services.redis import redis
+from Emma.services.telethon import tbot
 
 from ..utils.cached import cached
 from .utils.connections import chat_connection, get_connected_chat

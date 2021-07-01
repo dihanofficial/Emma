@@ -17,8 +17,6 @@
 import logging
 import time
 
-# from Emma import OWNER_ID as SUDO_USERS
-from Emma.services.pyrogram import pbot
 from pyrogram import filters
 from pyrogram.errors import RPCError
 from pyrogram.errors.exceptions.bad_request_400 import (
@@ -31,6 +29,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
 from Emma import BOT_ID
+
+# from Emma import OWNER_ID as SUDO_USERS
+from Emma.services.pyrogram import pbot
 from Emma.services.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)

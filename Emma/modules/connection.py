@@ -24,10 +24,10 @@ from aiogram.utils.callback_data import CallbackData
 from aiogram.utils.deep_linking import get_start_link
 from aiogram.utils.exceptions import BotBlocked, CantInitiateConversation
 from Emma.decorator import register
-from Emma.services.mongo import db
-from Emma.services.redis import redis
 
 from Emma import bot
+from Emma.services.mongo import db
+from Emma.services.redis import redis
 
 from .utils.connections import chat_connection, get_connection_data, set_connected_chat
 from .utils.language import get_strings_dec

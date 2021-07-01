@@ -31,8 +31,6 @@ from aiogram.types.message import ContentType, Message
 from aiogram.utils.callback_data import CallbackData
 from babel.dates import format_timedelta
 from Emma.decorator import register
-from Emma.services.mongo import db
-from Emma.services.redis import bredis, redis
 from Emma.utils.cached import cached
 from Emma.utils.logger import log
 
@@ -47,6 +45,8 @@ from Emma.modules.utils.message import (
 )
 from Emma.modules.utils.restrictions import ban_user, kick_user, mute_user
 from Emma.modules.utils.user_details import get_user_link, is_user_admin
+from Emma.services.mongo import db
+from Emma.services.redis import bredis, redis
 
 cancel_state = CallbackData("cancel_state", "user_id")
 

@@ -16,9 +16,6 @@ from random import randint, randrange, uniform
 import emoji
 import nltk
 from cowpy import cow
-from Emma.services.events import register
-from Emma.services.telethon import tbot
-from Emma.services.telethonuserbot import ubot
 from fontTools.ttLib import TTFont
 from PIL import Image, ImageDraw, ImageEnhance, ImageFont, ImageOps
 from selenium import webdriver
@@ -29,6 +26,9 @@ from telethon.tl.types import *
 from zalgo_text import zalgo
 
 from Emma import *
+from Emma.services.events import register
+from Emma.services.telethon import tbot
+from Emma.services.telethonuserbot import ubot
 
 nltk.download("punkt")
 nltk.download("averaged_perceptron_tagger")

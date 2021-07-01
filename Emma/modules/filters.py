@@ -32,13 +32,13 @@ from aiogram.utils.exceptions import MessageCantBeDeleted, MessageToDeleteNotFou
 from async_timeout import timeout
 from bson.objectid import ObjectId
 from Emma.decorator import register
-from Emma.services.mongo import db
-from Emma.services.redis import redis
 from Emma.utils.logger import log
 from pymongo import UpdateOne
 
 from Emma import bot, loop
 from Emma.modules import LOADED_MODULES
+from Emma.services.mongo import db
+from Emma.services.redis import redis
 
 from .utils.connections import chat_connection, get_connected_chat
 from .utils.language import get_string, get_strings_dec

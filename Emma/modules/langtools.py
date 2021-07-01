@@ -19,11 +19,12 @@
 import json
 
 import requests
-from Emma.services.events import register
 from google_trans_new import google_translator
 from PyDictionary import PyDictionary
 from telethon import *
 from telethon.tl.types import *
+
+from Emma.services.events import register
 
 API_KEY = "6ae0c3a0-afdc-4532-a810-82ded0054236"
 URL = "http://services.gingersoftware.com/Ginger/correct/json/GingerTheText"

@@ -22,6 +22,7 @@ from aiogram.types.inline_keyboard import InlineKeyboardButton, InlineKeyboardMa
 from aiogram.utils.callback_data import CallbackData
 from aiogram.utils.exceptions import MessageNotModified
 from Emma.decorator import register
+
 from Emma.services.mongo import db
 
 from .utils.language import (

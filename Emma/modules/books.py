@@ -22,8 +22,9 @@ import re
 
 import requests
 from bs4 import BeautifulSoup
-from Emma.services.telethon import tbot
 from telethon import events
+
+from Emma.services.telethon import tbot
 
 
 @tbot.on(events.NewMessage(pattern="^/book (.*)"))

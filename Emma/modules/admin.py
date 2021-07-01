@@ -19,10 +19,10 @@ SOFTWARE.
 """
 import os
 
-from Emma.services.pyrogram import pbot as app
 from pyrogram import filters
 
 from Emma.function.pluginhelpers import member_permissions
+from Emma.services.pyrogram import pbot as app
 
 
 @app.on_message(filters.command("setgrouptitle") & ~filters.private)

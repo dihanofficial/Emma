@@ -21,10 +21,11 @@ from typing import List
 
 import requests
 from Emma.config import get_str_key
-from Emma.services.events import register
-from Emma.services.telethon import tbot
 from telethon import types
 from telethon.tl import functions
+
+from Emma.services.events import register
+from Emma.services.telethon import tbot
 
 TIME_API_KEY = get_str_key("TIME_API_KEY", required=False)
 

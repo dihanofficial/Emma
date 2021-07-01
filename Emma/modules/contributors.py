@@ -15,8 +15,9 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import github  # pyGithub
-from Emma.services.pyrogram import pbot as client
 from pyrogram import filters
+
+from Emma.services.pyrogram import pbot as client
 
 
 @client.on_message(filters.command("contributors") & ~filters.edited)

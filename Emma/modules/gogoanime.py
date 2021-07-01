@@ -3,9 +3,10 @@
   Credits - @cosmicauracommunity
 """
 
-from Emma.services.telethon import tbot as GogoAnime
 from gogoanimeapi import gogoanime as anime
 from telethon import Button, events
+
+from Emma.services.telethon import tbot as GogoAnime
 
 
 @GogoAnime.on(events.NewMessage(pattern="^/gogo ?(.*)"))
