@@ -21,7 +21,6 @@ import html
 import re
 
 from Emma.decorator import register
-
 from Emma.services.mongo import db
 
 from .utils.disable import disableable_dec

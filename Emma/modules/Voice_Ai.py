@@ -21,12 +21,12 @@ import os
 import subprocess
 
 import requests
-from Emma.config import get_str_key
 from gtts import gTTS, gTTSError
 from requests import get
 from telethon.tl import functions, types
 from telethon.tl.types import *
 
+from Emma.config import get_str_key
 from Emma.services.events import register
 from Emma.services.telethon import tbot
 

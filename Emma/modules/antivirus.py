@@ -20,10 +20,10 @@
 import os
 
 import cloudmersive_virus_api_client
-from Emma.config import get_str_key
 from telethon.tl import functions, types
 from telethon.tl.types import DocumentAttributeFilename, MessageMediaDocument
 
+from Emma.config import get_str_key
 from Emma.services.events import register
 from Emma.services.telethon import tbot
 

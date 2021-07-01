@@ -18,7 +18,6 @@ import aiohttp
 import requests
 from bs4 import BeautifulSoup
 from countryinfo import CountryInfo
-from Emma.config import get_str_key
 from faker import Faker
 from faker.providers import internet
 from PyDictionary import PyDictionary
@@ -34,6 +33,7 @@ from search_engine_parser import GoogleSearch
 from tswift import Song
 from youtubesearchpython import VideosSearch
 
+from Emma.config import get_str_key
 from Emma.function.inlinehelper import *
 from Emma.function.pluginhelpers import fetch, json_prettify
 from Emma.services.pyrogram import pbot as app

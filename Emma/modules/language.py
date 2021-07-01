@@ -21,8 +21,8 @@ from contextlib import suppress
 from aiogram.types.inline_keyboard import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils.callback_data import CallbackData
 from aiogram.utils.exceptions import MessageNotModified
-from Emma.decorator import register
 
+from Emma.decorator import register
 from Emma.services.mongo import db
 
 from .utils.language import (

@@ -3,11 +3,11 @@ import sys
 from os import environ, execle, path, remove
 
 import heroku3
-from Emma.config import get_str_key
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 
 from Emma import OWNER_ID
+from Emma.config import get_str_key
 from Emma.services.events import register
 from Emma.services.telethon import tbot as update
 

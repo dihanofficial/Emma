@@ -17,10 +17,10 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import requests
-from Emma.config import get_str_key
 from telethon import types
 from telethon.tl import functions
 
+from Emma.config import get_str_key
 from Emma.services.events import register
 from Emma.services.telethon import tbot
 
