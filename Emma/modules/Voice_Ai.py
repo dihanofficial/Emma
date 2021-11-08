@@ -58,6 +58,7 @@ async def is_register_admin(chat, user):
     return None
 
 
+
 @register(pattern=r"^/ask(?: |$)([\s\S]*)")
 async def _(event):
     if event.fwd_from:
